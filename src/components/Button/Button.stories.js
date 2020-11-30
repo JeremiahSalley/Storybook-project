@@ -3,83 +3,160 @@ import { storiesOf } from '@storybook/react';
 
 import Button from './Button';
 
-// const style = {
-//     backgroundColor:'#0069D9',
-//     color: 'white',
-//     borderRadius: '2px',
-//     padding: '5px 25px',
-//     border: '#0069D9'
-// }
-// const styleSuccess = {
-//     backgroundColor:'#249D3C',
-//     color: 'white',
-//     borderRadius: '2px',
-//     padding: '5px 25px',
-//     border: '#249D3C'
-// }
-
-// const styleDanger = {
-//     backgroundColor:'#D72E3C',
-//     color: 'white',
-//     borderRadius: '2px',
-//     padding: '5px 25px',
-//     border: '#D72E3C'
-// }
-
-// const styleWarning = {
-//     backgroundColor:'#FFB90C',
-//     color: 'black',
-//     borderRadius: '2px',
-//     padding: '5px 25px',
-//     border: '#FFB90C'
-// }
-
-// storiesOf('Button', module)
-//     .add('Primary', () => <Button
-//         label="Primary"
-//         style={style}
-//     />)
-
-// storiesOf('Button', module)
-//     .add('Success', () => <Button
-//         label="Success"
-//         style={styleSuccess}
-//     />)
-
-// storiesOf('Button', module)
-//     .add('Danger', () => <Button
-//         label="Danger"
-//         style={styleDanger}
-//     />)
-    
-// storiesOf('Button', module)
-//     .add('Warning', () => <Button
-//         label="Warning"
-//         style={styleWarning}
-//     />)
-
 function helloWorld(){
     alert('Button Component Executed props.onClick')
 }
 
+
+// Primary blue color
 storiesOf('Button', module)
     .add('Primary', () => <Button
-    type="primary"
-    onClick={helloWorld}
-    label="Primary" />)
-
-    .add('Success', () => <Button
-        label="Success"
         type="primary"
+        label="Do Something"
     />)
-    .add('Danger', () => <Button
-        label="Danger"
-        type='primary'
+
+    .add('Primary-white', () => <Button
+        label="Do Something"
+        type='primary-white'
     />)
-    .add('Warning', () => <Button
-        label="Warning"
-        type='primary'
+    .add('Primary-shade', () => <Button
+        label="Do Something"
+        type='primary-shade'
     />)
     .add('Large Primary', () => <Button
-    type='primary'
-    label='Large Primary Button' />)
+        type='large'
+        label='Do Something' 
+    />)
+    .add('Large Shade', () => <Button
+        type='large-shade'
+        label='Do Something' 
+    />)
+    .add('Large White', () => <Button
+        type='large-white'
+        label='Do Something' 
+    />)
+// Danger red color
+    .add('Danger with hover', () => <Button
+        label="Do Something"
+        type='danger'
+    />)
+    .add('Danger white', () => <Button
+        label="Do Something"
+        type='danger-white'
+    />)
+    .add('Danger Shade', () => <Button
+        label="Do Something"
+        type='danger-shade'
+    />)
+    .add('Large Danger', () => <Button
+        type='danger-large'
+        label='Do Something' 
+    />)
+    .add('Large Danger Shade', () => <Button
+        type='danger-large-shade'
+        label='Do Something' 
+    />)
+    .add('Large Danger White', () => <Button
+        type='danger-large-white'
+        label='Do Something' 
+    />)
+
+// Success Green Button 
+
+    .add('Success with hover', () => <Button
+        label="Do Something"
+        type='success'
+    />)
+    .add('Success white', () => <Button
+        label="Do Something"
+        type='success-white'
+    />)
+    .add('Success Shade', () => <Button
+        label="Do Something"
+        type='success-shade'
+    />)
+    .add('Large Success', () => <Button
+        type='success-large'
+        label='Do Something' 
+    />)
+    .add('Large Success Shade', () => <Button
+        type='success-large-shade'
+        label='Do Something' 
+    />)
+    .add('Large Success White', () => <Button
+        type='success-large-white'
+        label='Do Something' 
+    />)
+
+// Warning Yellow Color 
+
+    .add('Warning with hover', () => <Button
+        label="Do Something"
+        type='warning'
+    />)
+    .add('Warning white', () => <Button
+        label="Do Something"
+        type='warning-white'
+    />)
+    .add('Warning Shade', () => <Button
+        label="Do Something"
+        type='warning-shade'
+    />)
+    .add('Large Warning', () => <Button
+        type='warning-large'
+        label='Do Something' 
+    />)
+    .add('Large Warning Shade', () => <Button
+        type='warning-large-shade'
+        label='Do Something' 
+    />)
+    .add('Large Warning White', () => <Button
+        type='warning-large-white'
+        label='Do Something' 
+    />)
+
+    // Default black button 
+
+    .add('Default with hover', () => <Button
+        label="Do Something"
+        type='default'
+    />)
+    .add('Default white', () => <Button
+        label="Do Something"
+        type='default-white'
+    />)
+    .add('Default Shade', () => <Button
+        label="Do Something"
+        type='default-shade'
+    />)
+    .add('Large Default', () => <Button
+        type='default-large'
+        label='Do Something' 
+    />)
+    .add('Large Default Shade', () => <Button
+        type='default-large-shade'
+        label='Do Something' 
+    />)
+    .add('Large Default White', () => <Button
+        type='default-large-white'
+        label='Do Something' 
+    />)
+
+    //Cart and Favorite 
+
+    .add('Add to Cart', () => <Button
+        label="Add to Cart"
+        type='cart'
+    />)
+    .add('Favorite', () => <Button
+        label="Add to Favorite"
+        type='favorite'
+    />)
+    .add('Heart', () => <Button
+        label=""
+        type='heart'
+    />)
+    .add('Shopping Cart', () => <Button
+        label=""
+        type='shopping'
+    />)

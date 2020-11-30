@@ -2,14 +2,262 @@ button {
     border-radius: 2px;
     padding: 5px 25px;
 }
-
+/* primary blue button  */
 .button-primary {
     background-color: #0069D9;
     color: white;
     border: #0069D9;
 }
+.button-primary:hover{
+    background-color: darkblue;
+}
+.button-primary-white {
+    background-color: #FFFFFF;
+    color: #0069D9;
+    border: #0069D9;
+}
 
-.buton-success {
+
+.button-primary-shade {
+    background-color: #EAF5FF;
+    color: #0069D9;
+    border: #0069D9;
+}
+
+.button-large {
+    padding: 10px 50px;
+    background-color: #0069D9;
+    color: white;
+    border: #EAF5FF;
+    
+}
+.button-large-shade {
+    padding: 10px 50px;
+    background-color: #EAF5FF;
+    color: #0069D9;
+    border: #EAF5FF;
+    
+}
+.button-large-white {
+    padding: 10px 50px;
+    background-color: #FFFFFF;
+    color: #0069D9;
+    border: #0069D9;
+    
+}
+
+
+/* danger red color  */
+.button-danger {
+    background-color: #D72E3C;
+    color: white;
+    border-radius: 2px;
+    padding: 5px 25px;
+    border: #D72E3C;
+}
+.button-danger:hover{
+    background-color: darkred;
+}
+.button-danger-white{
+    background-color: #FFFFFF;
+    color: #D72E3C;
+    border: #D72E3C;
+}
+.button-danger-shade{
+    background-color: #FFECEE;
+    color: #D72E3C;
+    border: #D72E3C;
+}
+.button-danger-large {
+    padding: 10px 50px;
+    background-color: #D72E3C;
+    color: white;
+    border: #D72E3C;
+}
+.button-danger-large-shade {
+    padding: 10px 50px;
+    background-color: #FFECEE;
+    color: #D72E3C;
+    border: #D72E3C;
+}
+.button-danger-large-white {
+    padding: 10px 50px;
+    background-color: #FFFFFF;
+    color: #D72E3C;
+    border: #D72E3C;
+}
+
+/* success green button */
+.button-success {
+    background-color: #0AD00A;
+    color: white;
+    border-radius: 2px;
+    padding: 5px 25px;
+    border: #0AD00A;
+}
+.button-success:hover{
+    background-color: darkgreen;
+}
+.button-success-white{
+    background-color: #FFFFFF;
+    color: #0AD00A;
+    border: #0AD00A;
+}
+.button-success-shade{
+    background-color: #E6FAE6;
+    color: #0AD00A;
+    border: #0AD00A
+}
+.button-success-large {
+    padding: 10px 50px;
+    background-color: #0AD00A;
+    color: white;
+    border: #0AD00A;
+}
+.button-success-large-shade {
+    padding: 10px 50px;
+    background-color: #E6FAE6;
+    color: #0AD00A;
+    border: #0AD00A;
+}
+.button-success-large-white {
+    padding: 10px 50px;
+    background-color: #FFFFFF;
+    color: #0AD00A;
+    border: #0AD00A;
+}
+
+/* Warning Yellow button  */
+
+.button-warning {
+    background-color: #FFC600;
+    color: white;
+    border-radius: 2px;
+    padding: 5px 25px;
+    border: #FFC600;
+}
+.button-warning:hover{
+    background-color: #EBB600;
+}
+.button-warning-white{
+    background-color: #FFFFFF;
+    color: #FFC600;
+    border: #FFC600;
+}
+.button-warning-shade{
+    background-color: #FFF9E5;
+    color: #FFC600;
+    border: #FFC600
+}
+.button-warning-large {
+    padding: 10px 50px;
+    background-color: #FFC600;
+    color: white;
+    border: #FFC600;
+}
+.button-warning-large-shade {
+    padding: 10px 50px;
+    background-color: #FFF9E5;
+    color: #FFC600;
+    border: #FFC600;
+}
+.button-warning-large-white {
+    padding: 10px 50px;
+    background-color: #FFFFFF;
+    color: #FFC600;
+    border: #FFC600;
+}
+
+/* Defualt black button  */
+
+.button-default {
+    background-color: #22262A;
+    color: white;
+    border-radius: 2px;
+    padding: 5px 25px;
+    border: #22262A;
+}
+.button-default:hover{
+    background-color: #13161A;
+}
+.button-default-white{
+    background-color: #FFFFFF;
+    color: #22262A;
+    border: #22262A;
+}
+.button-default-shade{
+    background-color: #F6F7F8;
+    color: #22262A;
+    border: #22262A;
+}
+.button-default-large {
+    padding: 10px 50px;
+    background-color: #22262A;
+    color: white;
+    border: #22262A;
+}
+.button-default-large-shade {
+    padding: 10px 50px;
+    background-color: #F6F7F8;
+    color: #22262A;
+    border: #22262A;
+}
+.button-default-large-white {
+    padding: 10px 50px;
+    background-color: #FFFFFF;
+    color: #22262A;
+    border: #22262A;
+}
+
+
+
+
+/* shopping cart and favorite  */
+.button-cart {
+    background-color: #EAF5FF;
+    color: #0069D9;
+    border: #0069D9;
+    background-image: url('../img/cart_2.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 5px;
+}
+.button-favorite {
+    background-color: #EAF5FF;
+    color: #0069D9;
+    border: #0069D9;
+    background-image: url('../img/hearts.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 5px;
+}
+
+.button-heart {
+    background-color: #EAF5FF;
+    color: #0069D9;
+    border: #0069D9;
+    background-image: url('../img/hearts.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: center;
+    padding: 20px;
+}
+
+.button-shopping {
+    background-color: #EAF5FF;
+    color: #0069D9;
+    border: #0069D9;
+    background-image: url('../img/cart_2.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: center;
+    padding: 20px;
+}
+
+
+
+
+/* .button-success {
     background-color:#249D3C;
     color: white;
     border-radius: 2px;
@@ -23,16 +271,8 @@ button {
     border-radius: 2px;
     padding: 5px 25px;
     border: #FFB90C;
-}
+} */
 
-.button-danger {
-    background-color: #D72E3C;
-    color: white;
-    border-radius: 2px;
-    padding: 5px 25px;
-    border: #D72E3C;
-}
-
-.button-large {
+/* .button-large {
     padding: 10px 50px;
-}
+} */

@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+
+input.forms-medium-email {
+    font-size: 15px;
+    width: 200px;
+    height: 30px;
+}
+
+input.forms-large-email {
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+}
+
+    
+
+
+
